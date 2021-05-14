@@ -144,6 +144,9 @@ Any heading can become a TODO. Let's add a reminder to do the laundry:
   *** TODO wash dirty clothes
 #+end_example
 
+Once the chore is done, you can mark it complete by setting your
+cursor anywhere on the TODO line, and hitting =C-c C-t=.
+
 You can add lists under todos like anything else, in case you need
 notes about the item:
 
