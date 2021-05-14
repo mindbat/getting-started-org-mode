@@ -187,7 +187,47 @@ org file, putting a todo in it, and then refreshing the agenda buffer
 
 ** Reminders, Deadlines, and the Weekly Agenda
 
+"That's all fine, Mr Mindbat, but what if I need to set a deadline for
+a todo? You know, something to remind me that I absolutely /have/ to
+get it done by X date?"
+
+Well, you're in luck! Because adding a deadline, and seeing a list of
+upcoming todos, is just as easy!
+
 *** Setting a Deadline
+
+Add a new Todo to your growing list:
+
+#+begin_example
+  * May 2021
+  ** 6 May
+  *** TODO buy tickets for summer vacation
+#+end_example
+
+That'll definitely have a deadline, right? We need to buy the tickets
+before (long before) we can go on the trip!
+
+So let's add a deadline! With your cursor on the Todo line, hit =C-c
+C-d=. You'll see another mini-buffer pop-up, this time with a date
+auto-populated (it should be your current date) and a calendar
+displayed above. Enter the date you want for the deadline in the
+mini-buffer (note the format!), and when you hit enter, you should see
+something like this:
+
+#+begin_example
+  * May 2021
+  ** 6 May
+  *** TODO buy tickets for summer vacation
+      DEADLINE: <2021-06-05 Sat>
+#+end_example
+
+Anytime you want to /edit/ the deadline, you can either do it
+directly, or go back to the TODO line and hit =C-c C-d= again to bring
+up the calendar + mini-buffer.
+
+Add a few more todos with deadlines, this time picking dates in the
+next day or so. Then hit =M-x org-agenda= followed by =a= (not /t/
+this time), and voila! A view of all your todos for the coming week!
 
 *** Repeating Todos
 
