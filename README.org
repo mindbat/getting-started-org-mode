@@ -134,17 +134,55 @@ open the link in your default browser. Pretty neat, huh?
 
 ** Getting from Todo to To-done
 
-*** Setup a journal file
+*** Todos in the Journal
 
-*** Populate it with todos
+Any heading can become a TODO. Let's add a reminder to do the laundry:
 
-*** Viewing them all
+#+begin_example
+  * May 2021
+  ** 5 May
+  *** TODO wash dirty clothes
+#+end_example
+
+You can add lists under todos like anything else, in case you need
+notes about the item:
+
+#+begin_example
+  * May 2021
+  ** 5 May
+  *** TODO wash dirty clothes
+  - don't forget the laundry hamper in the downstairs closet!
+  - but don't wash the new shirts, those are dry-clean only!
+#+end_example
+
+These obey the same show/hide rules as everything else. Try it out!
+
+*** I Would Like to See a Full List of Everything I've Left Undone, Please
+
+Okay, fine. It's not enough to scroll through and find your
+todos. Sometimes we need to see them all at once.
+
+Before we can do that, though, we'll need to tell emacs (and thus
+org-mode) where to find our Todos, so it can add them to the (drumroll
+please) /Agenda/.
+
+Add the following code to your emacs =init.el= file:
+
+#+begin_src emacs-lisp
+  (setq org-agenda-files (append (directory-files-recursively "~/getting-started-org-mode" "org$")))
+#+end_src
+
+(Note: The above assumes you're adding your tutorial org-files to your copy
+of this repo. If that's not the case, you'll need to update the path
+there to point to where you /are/ keeping your org files)
+
+Restart emacs. With your =tutorial.org= buffer open again, hit: =M-x
+org-agenda=, then press =t=. You should see a list of all your todos,
+across all the org files in this directory. Go ahead, try adding a new
+org file, putting a todo in it, and then refreshing the agenda buffer
+(hint: =C-x b= to switch back to the buffer, then =g= to refresh the list)
 
 ** Reminders, Deadlines, and the Weekly Agenda
-
-*** Autoloading
-
-*** Our Blank Agenda
 
 *** Setting a Deadline
 
