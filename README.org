@@ -10,3 +10,36 @@ taking notes, tracking todos, and using the agenda to organize your
 days and weeks.
 
 There's lots to explore, so let's get started!
+
+** Taking Notes
+
+*** The Basics
+
+*** Links
+
+** Getting from Todo to To-done
+
+*** Setup a journal file
+
+*** Populate it with todos
+
+*** Viewing them all
+
+** Reminders, Deadlines, and the Weekly Agenda
+
+*** Autoloading
+
+*** Our Blank Agenda
+
+*** Setting a Deadline
+
+*** Repeating Todos
+
+** Additional Resources
+
+We've just scratched the surface of what org-mode can do. You can use
+it to give presentations, sync it with your Google Calendar, even
+build spreadsheets!
+
+You'll want to bookmark the Org-Mode Manual, and come back to it often
+to find a new feature to try out.
