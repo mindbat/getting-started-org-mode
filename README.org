@@ -231,7 +231,47 @@ this time), and voila! A view of all your todos for the coming week!
 
 *** Repeating Todos
 
+All right! You've mastered note-taking, creating todos, and setting
+deadlines. You can view a weekly agenda based on those todos, and link
+out to external websites when needed.
+
+But what about todos that repeat? Things like doing the laundry, which
+you (hopefully) do about once a week?
+
+Sure, you could manually create a new TODO every week, with a deadline
+on the next day you have to have it done by.
+
+But this emacs! Why would we do anything manually?
+
+Create a new, weekly todo:
+
+#+begin_example
+  * 7 May
+  *** TODO set trash cans out on street for pickup
+#+end_example
+
+Give it a deadline using the normal method. Then edit that line,
+adding a one week repeater. It should look something like this:
+
+#+begin_example
+  * 7 May
+  *** TODO set trash cans out on street for pickup
+      DEADLINE: <2021-05-07 +1w>
+#+end_example
+
+Save the buffer, and refresh the weekly agenda. You see your todo in
+there just like normal, right?
+
+Now mark it done, and refresh the agenda. Boom! Org-mode sees you've completed it for this
+week, and then automatically sets a /new/ deadline one week into the
+future.
+
+You can set repeaters for days (=d=), weeks (=w=), months (=m=), even
+years (=y=)! Check out the [[https://orgmode.org/manual/Repeated-tasks.html#Repeated-tasks][manual]] for a full list of options.
+
 ** Additional Resources
+
+You did it!
 
 We've just scratched the surface of what org-mode can do. You can use
 it to give presentations, sync it with your Google Calendar, even
