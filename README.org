@@ -38,7 +38,7 @@ Let's add a new note entry linking to this repo:
 #+begin_example
   - Notes about the org-mode tutorial:
       + repo [[https://github.com/mindbat/getting-started-with-org-mode][here]]
-      + the text of the tutorial /is/ a tutorial! mindbblown.gif
+      + the text of the tutorial /is/ a tutorial! mindblown.gif
 #+end_example
 
 Nice! Note how org-mode swaps out displaying the link /and/ the text for
