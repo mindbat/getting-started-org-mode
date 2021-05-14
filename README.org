@@ -1,3 +1,12 @@
 #+TITLE: getting-started-org-mode
 
 /Short Tutorial on how to use org-mode for notes, todos, and reminders/
+
+* Welcome to Org-Mode! [[file:org-mode-unicorn.png]]
+
+Org-Mode can be a deep dive, even for experienced emacs users. This
+tutorial will give you a quick tour of just a few of its features:
+taking notes, tracking todos, and using the agenda to organize your
+days and weeks.
+
+There's lots to explore, so let's get started!
