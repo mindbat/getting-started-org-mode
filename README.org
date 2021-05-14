@@ -104,6 +104,9 @@ hitting =<tab>= at various points to see what's revealed/hidden, and
 changing the indention levels of the text. Notice which things
 org-mode cares about, and which it ignores?
 
+Congratulations! You've already mastered the art of taking notes in
+org-mode. Well done!
+
 *** Links
 
 You've already seen a few links in this tutorial. Adding a new one is
