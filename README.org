@@ -13,7 +13,7 @@ There's lots to explore, so let's get started!
 
 ** Taking Notes
 
-*** The Basics
+*** Init the el
 
 Before we do anything else, let's make sure =auto-fill-mode= comes on
 automatically when we're editing org files. It's basically the same as
@@ -27,6 +27,82 @@ Add this to your =init.el= file (usually in a directory like
 #+end_src
 
 Then quit and restart emacs.
+
+*** The Basics
+
+The easiest way to get started using org-mode is for taking notes.
+
+Open a new org buffer: =emacs tutorial.org=
+
+This is going to be a daily journal. A record of things done, things
+to do, and things we can yet only dream of.
+
+Let's give the doc a header. A title, a declaration of purpose. Make
+it the month and the year, so we know what we're looking at when we
+come back:
+
+#+begin_example
+  * May 2021
+#+end_example
+
+Well done! It's not much, but it's the start of great things.
+
+Let's make some sub-headings under there, for the days of the month:
+
+#+begin_example
+  * May 2021
+  ** 3 May
+  ** 4 May
+  ** 5 May
+  ** 6 May
+  ** 7 May
+#+end_example
+
+More interesting, by far. And now we've unlocked the first of
+org-mode's many powers: nesting.
+
+Scroll back up to the first line, and hit =<tab>=.
+
+Whoa! Where'd the other headings go?
+
+Hit =<tab>= again. The top-level heading unfolds, revealing the
+subheadings again.
+
+org-mode carries this principle -- where sub-items are nested inside
+higher-level ones, and can be revealed and hidden at will -- all the
+way down, through headings, notes, etc.
+
+Speaking of notes, let's add some:
+
+#+begin_example
+  * May 2021
+  ** 3 May
+  *** grocery-store run
+  - need to pick up:
+    + eggs
+    + oat milk
+    + cinnamon
+    + loaf of bread (thick slices)
+    + sugar
+  - don't forget your mask!
+  *** weekly council of ricks meeting
+  - rick037 is loose again
+  - rick048 thinks we should just let him go
+    + i disagree
+    + also rick048 has a mullet so we should ignore him
+  - jerry077 got swapped with jerry099 at the last iteration of jerry's day-care romp,
+    neither rick is admitting responsibility
+  ** 4 May
+  ** 5 May
+  ** 6 May
+  ** 7 May
+#+end_example
+
+Ok! Now we've got a list of groceries to pick up, and some meeting
+notes. Play around with the nesting of the various elements, both by
+hitting =<tab>= at various points to see what's revealed/hidden, and
+changing the indention levels of the text. Notice which things
+org-mode cares about, and which it ignores?
 
 *** Links
 
