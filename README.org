@@ -241,7 +241,7 @@ you (hopefully) do about once a week?
 Sure, you could manually create a new TODO every week, with a deadline
 on the next day you have to have it done by.
 
-But this emacs! Why would we do anything manually?
+But this is emacs! Why would we do anything manually?
 
 Create a new, weekly todo:
 
