@@ -276,8 +276,8 @@ years (=y=)! Check out the [[https://orgmode.org/manual/Repeated-tasks.html#Repe
 You did it!
 
 We've just scratched the surface of what org-mode can do. You can use
-it to give presentations, sync it with your Google Calendar, even
-build spreadsheets!
+it to [[https://orgmode.org/worg/org-tutorials/non-beamer-presentations.html#sec-3][give presentations]], sync it with your [[https://orgmode.org/worg/org-tutorials/org-google-sync.html][Google Calendar]], even
+build [[https://orgmode.org/manual/The-Spreadsheet.html][spreadsheets]]!
 
 You'll want to bookmark the [[https://orgmode.org/manual/][Org-Mode Manual]], and come back to it often
 to find a new feature to try out.
