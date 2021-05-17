@@ -19,8 +19,8 @@ Before we do anything else, let's make sure =auto-fill-mode= comes on
 automatically when we're editing org files. It's basically the same as
 turning on "Soft wrap" when creating a new [[gist.github.com][gist]].
 
-Add this to your =init.el= file (usually in a directory like
-=~/.emacs.d=:
+Add this to your =init.el= file (usually found in a directory like
+=~/.emacs.d=):
 
 #+begin_src emacs-lisp
   (add-hook 'org-mode-hook 'turn-on-auto-fill)
