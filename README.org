@@ -246,7 +246,8 @@ But this is emacs! Why would we do anything manually?
 Create a new, weekly todo:
 
 #+begin_example
-  * 7 May
+  * May 2021
+  ** 7 May
   *** TODO set trash cans out on street for pickup
 #+end_example
 
@@ -254,7 +255,8 @@ Give it a deadline using the normal method. Then edit that line,
 adding a one week repeater. It should look something like this:
 
 #+begin_example
-  * 7 May
+  * May 2021
+  ** 7 May
   *** TODO set trash cans out on street for pickup
       DEADLINE: <2021-05-07 +1w>
 #+end_example
